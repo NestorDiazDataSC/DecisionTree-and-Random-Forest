@@ -3,6 +3,8 @@ Practicas de estos modelos, archivos y recordatorios utiles para predecir con es
 
 ![01](https://user-images.githubusercontent.com/94582879/161449025-3fa45eb3-bd47-483a-ab8c-26fea6a8c23e.jpg)
 
+Se lee asi: Si tiene glucosa menor a 87,5 se sigue por la rama izquierda, por el contrario sera por la derecha. Luego si Insulin es menor a 14.338 se sigue por la izquierda tambien, llegando al final de la rama en este caso. Tenemos "value" "[20,4] y "samples=24" tenemos que dividir 4/24 para saber que la probabilidad de que salga en esta rama es de 16.67%
+
 ## Parametros a utilizar con Sklearn para arboles de decisión:
 
 ![01](https://user-images.githubusercontent.com/94582879/173691604-3eb15972-1123-48e4-806a-e8e92ccf7760.jpg)
